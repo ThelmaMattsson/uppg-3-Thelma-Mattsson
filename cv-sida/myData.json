@@ -1,0 +1,33 @@
+{
+    "cvItem1": "Utbildningar",
+    "utbildningar": [
+        {
+            "title": "Frontendutbildning",
+            "school": "Yrkeshögskolan i Borås",
+            "period": "Januari 2025 - nu"
+        },
+        {
+            "title": "Kandidatexamen i Folkhälsovetenskap",
+            "school": "Mittuniversitetet Sundsvall",
+            "period": "Januari 2021 - Januari 2024"
+        }
+    ],
+    "cvItem2": "Arbete",
+    "arbeten": [
+        {
+            "title": "Praktik",
+            "workplace": "Borås Kommun fritids- och folkhälsoförvaltning",
+            "period":"Februari 2023 - April 2023"
+        },
+        {
+            "title": "Butikskonsulent",
+            "företag": "Cloetta",
+            "period": "September 2021 - nu"
+        }
+    ]
+}
+
+
+
+
+

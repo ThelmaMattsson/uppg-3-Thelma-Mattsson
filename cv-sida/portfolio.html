@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="icon" href="./images/profilkvinna.jpg" type="image/jpg">
+    <title>CV Thelma</title>
+</head>
+<body>
+    <header>
+        <h1>Thelmas CV & Portfolio</h1>
+    </header>
+    <div class="inner-width">
+        <button class="menu-toggle-btn" onclick="toggleMenu()"><i class="fa fa-bars"></i></button>
+        <nav class="navigation-menu" id="navigation-menu">
+            <ul>
+                <li class="nav-item"><a href="/index.html">Home</a></li>
+                <li class="nav-item-active"><a href="./portfolio.html">Portfolio</a></li>
+                <li class="nav-item"><a href="./cv.html">CV</a></li>
+                <li class="nav-item"><a href="./contact.html">Contact</a></li>
+                <!--Lånad kod för dark/light-mode från W3schools-->
+                <li class="nav-item"><button class="mode-btn" onclick="darkMode()">Dark/light mode</button></li>
+            </ul>
+        </nav>
+    </div>
+    <main>
+        <section>
+            <h2>Portfolio</h2>
+            <div class="container">
+                    <div class="portfolio">
+                        <img class="portfolio-pic portfolio-item" src="./images/Skärmavbild 2025-02-16 kl. 14.25.39.png" alt="Log-in page project">
+                        <h3 class="portfolio-item" >Log-in page</h3>
+                        <p class="portfolio-item left-p" >A simple log-in page in html and css that was made within the course Web Development with Javascript.</p>
+                        <p class="portfolio-item länk-btn"><a href="https://github.com/ThelmaMattsson/login-uppgift-Thelma-Mattsson.git" target="_blank">Show in GitHub</a></p>
+                    </div>
+                    <div class="portfolio">
+                        <img class="portfolio-pic portfolio-item" src="./images/Skärmavbild 2025-03-07 kl. 11.05.26.png" alt="CV webpage project">
+                        <h3 class="portfolio-item" >CV webpage</h3>
+                        <p class="portfolio-item left-p">A website for my CV and portfolio in html and css that was made within the course Web Development with Javascript.</p>
+                        <p class="portfolio-item länk-btn"><a href="https://github.com/ThelmaMattsson/uppgift2-thelma_mattsson.git" target="_blank">Show in GitHub</a></p>
+                        
+                    </div>
+                    <div class="portfolio">
+                        <img class="portfolio-pic portfolio-item" src="./images/Skärmavbild 2025-02-16 kl. 14.25.39.png" alt="Log-in page project">
+                        <h3 class="portfolio-item" >Log-in page</h3>
+                        <p class="portfolio-item left-p" >A simple log-in page in html and css that was made within the course Web Development with Javascript..</p>
+                        <p class="portfolio-item länk-btn"><a href="https://github.com/ThelmaMattsson/login-uppgift-Thelma-Mattsson.git" target="_blank">Show in GitHub</a></p>
+                    </div>
+                    <div class="portfolio">
+                        <img class="portfolio-pic portfolio-item" src="./images/Skärmavbild 2025-02-16 kl. 14.25.39.png"> alt="Log-in page project"
+                        <h3 class="portfolio-item" >Log-in page</h3>
+                        <p class="portfolio-item left-p" >A simple log-in page in html and css that was made within the course Web Development with Javascript.</p>
+                        <p class="portfolio-item länk-btn"><a href="https://github.com/ThelmaMattsson/login-uppgift-Thelma-Mattsson.git" target="_blank">Show in GitHub</a></p>
+                    </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>2025 -  Thelma Mattsson - F25D</p>
+    </footer>
+</body>
+</html>
